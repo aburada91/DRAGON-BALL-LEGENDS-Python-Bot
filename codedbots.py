@@ -7,7 +7,7 @@ import time
 class codedbots(object):
 	def __init__(self):
 		self.s=requests.Session()
-		self.license='PUT YOUR LICENSE KEY HERE'
+		self.license='ecd1bb8b626d380e93748523485ef051'
 		if len(self.license)!=64:
 			print('license invalid')
 			exit(1)
